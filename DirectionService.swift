@@ -4,7 +4,7 @@ import CoreLocation
 class DirectionsService: ObservableObject {
     @Published var routes: [Route] = []
 
-    private let apiKey = "AIzaSyC3AXMZ0Z9qXyYsJ5rYHII8PXlM5jDeSVU"
+    private let apiKey = "x"
 
     func fetchRoute(from origin: CLLocationCoordinate2D, to destination: CLLocationCoordinate2D, completion: @escaping (Route?) -> Void) {
         routes = []
